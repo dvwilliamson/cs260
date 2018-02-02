@@ -6,11 +6,14 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
+
+<link href="https://fonts.googleapis.com/css?family=Oswald|PT+Sans|Tangerine:400" rel="stylesheet">
+
 <script src="https://use.fontawesome.com/9eb3a72f26.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="vertical-tabs.css">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="/cs260/vertical-tabs.css">
+<link rel="stylesheet" href="/cs260/styles.css">
 <script src="javascript.js"></script>
 
 
@@ -21,35 +24,71 @@
 </head>
 <body>
 
-<div class="sidebar">
-  <div class="col-xs-3">
-     <ul class="nav nav-tabs tabs-left vertical-text">
-      <li class="active"><a href="#home-v" data-toggle="tab">Home</a></li>
-      <li><a href="#profile-v" data-toggle="tab">Profile</a></li>
-      <li><a href="#messages-v" data-toggle="tab">Messages</a></li>
-      <li><a href="#settings-v" data-toggle="tab">Settings</a></li>
-    </ul>
-  </div>
-  <div class="col-xs-9">
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div class="red tab-pane active" id="home-v">Home Tab.</div>
-      <div class="red tab-pane" id="profile-v">Profile Tab.</div>
-      <div class="red tab-pane" id="messages-v">Messages Tab.</div>
-      <div class="red tab-pane" id="settings-v">Settings Tab.</div>
+<div class="content">
+  <div class="header">
+    <h1 class="title-text">Learn Languages</h1>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li class="active"><a href="/cs260/index.html">Home</a></li>
+          <li><a href="/cs260/pages/browse.html">Browse</a></li>
+          <li><a href="/cs260/pages/about.html">About</a></li>
+          <li><a href="/cs260/pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
+  <div class="opener-container">
+    <h2>Welcome to our language learning website.</h2>
+    <img class="opener" src="/cs260/images/book.jpg">
+    <p>The purpose of this website is to help you learn languages, both programming languages and spoken languages (and perhaps one day sign languages as well).</p>
+  </div>
 </div>
+<div class="footer">
+    <footer>
+      <hr>
+      <ul>
+        <li class="github-link">
+          <a target="_blank" href="https://github.com/dvwilliamson/cs260">
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+            Github
+          </a>
+        </li>
+      </ul>
+
+    </footer>
+  </div>
+  <!--
+  <div class="sidebar">
+    <div class="col-xs-3">
+      <ul class="nav nav-tabs tabs-left vertical-text">
+        <li class="active"><a href="#home-v" data-toggle="tab">Home</a></li>
+        <li><a href="#profile-v" data-toggle="tab">Profile</a></li>
+        <li><a href="#messages-v" data-toggle="tab">Messages</a></li>
+        <li><a href="#settings-v" data-toggle="tab">Settings</a></li>
+      </ul>
+    </div>
+    <div class="col-xs-9">-->
+    <!-- Tab panes --><!--
+      <div class="tab-content">
+        <div class="red tab-pane active" id="home-v">Home Tab.</div>
+        <div class="red tab-pane" id="profile-v">Profile Tab.</div>
+        <div class="red tab-pane" id="messages-v">Messages Tab.</div>
+        <div class="red tab-pane" id="settings-v">Settings Tab.</div>
+      </div>
+    </div>
+  </div>
+</div>-->
 <!--
 <div class="language-options">
-	<ul class="flex-container">
-		<li class="flex-item">
+  <ul class="flex-container">
+    <li class="flex-item">
 
-		</li>
-		<li class="flex-item">Learn Scala</li>
-		<li class="flex-item size-1">Learn Python</li>
-		<li class="flex-item">Learn Something else</li>
-	</ul>
+    </li>
+    <li class="flex-item">Learn Scala</li>
+    <li class="flex-item size-1">Learn Python</li>
+    <li class="flex-item">Learn Something else</li>
+  </ul>
 </div>
 -->
 </body>
