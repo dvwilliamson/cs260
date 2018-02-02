@@ -1,0 +1,25 @@
+body{
+  margin:0px;
+  padding:0px;
+}
+
+div.sidebar{
+  float:right;
+  clear:both;
+  width:350px;
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+}
+
+div.sidebar.closed{
+  width:50px;
+}
+
+div.sidebar.closed .tab-content{
+  display:none;
+}
+
+.red{
+  background-color: red;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ProgLearn</title>
+<link rel="stylesheet" href="styles.css">
+<link src=""
+<link href="https://fonts.googleapis.com/css?family=Glegoo|Tangerine:400,700" rel="stylesheet">
+<script src="https://use.fontawesome.com/9eb3a72f26.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="sidetab">
+<p>Dictionary</p>
+<p>Transcription</p>
+<p>Notes</p>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>
+
